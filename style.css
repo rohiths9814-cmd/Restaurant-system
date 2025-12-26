@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+a, button {
+    cursor: pointer;
+}
+
+
 /* Body basic styling */
 body {
     font-family: 'Poppins', sans-serif;
@@ -121,9 +126,18 @@ body {
 .section-title {
     text-align: center;
     font-size: 32px;
-    margin-bottom: 50px;
-    color: #333;
+    margin-bottom: 15px;
 }
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e63946;
+    margin: 10px auto 0;
+}
+
 
 /* Features Container */
 .features-container {
