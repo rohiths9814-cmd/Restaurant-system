@@ -93,3 +93,57 @@ body {
     background-color: #c72c3b;
 }
 
+/* Features Section */
+.features {
+    padding: 80px 40px;
+    background-color: #ffffff;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+/* Features Container */
+.features-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Feature Card */
+.feature-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Card Heading */
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #e63946;
+}
+
+/* Card Text */
+.feature-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
