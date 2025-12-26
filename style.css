@@ -42,3 +42,54 @@ body {
 .nav-links a:hover {
     color: #e63946;
 }
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5") center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/* Hero Content */
+.hero-content {
+    max-width: 600px;
+    color: #ffffff;
+}
+
+/* Hero Heading */
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* Hero Description */
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Primary Button */
+.btn-primary {
+    text-decoration: none;
+    background-color: #e63946;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover */
+.btn-primary:hover {
+    background-color: #c72c3b;
+}
+
