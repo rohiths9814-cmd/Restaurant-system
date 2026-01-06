@@ -21,3 +21,24 @@ categoryButtons.forEach(button => {
         });
     });
 });
+
+let cartCount = 0;
+
+const addButtons = document.querySelectorAll('.add-btn');
+const cartCountSpan = document.getElementById('cart-count');
+
+addButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        cartCount++;
+        cartCountSpan.textContent = cartCount;
+
+        // UX feedback
+        button.textContent = "Added ✓";
+        button.disabled = true;
+
+        setTimeout(() => {
+            button.textContent = "Add";
+            button.disabled = false;
+        }, 1000);
+    });
+});

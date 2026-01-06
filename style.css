@@ -284,4 +284,26 @@ body {
     color: #ffffff;
 }
 
+/* ================= CART ICON ================= */
+
+.cart-icon {
+    margin-left: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+#cart-count {
+    background-color: #e63946;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.cart-icon:hover {
+    transform: scale(1.1);
+}
+
 
